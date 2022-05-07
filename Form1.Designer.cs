@@ -37,9 +37,9 @@
             // btn_8_1
             // 
             this.btn_8_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btn_8_1.Location = new System.Drawing.Point(117, 48);
+            this.btn_8_1.Location = new System.Drawing.Point(117, 41);
             this.btn_8_1.Name = "btn_8_1";
-            this.btn_8_1.Size = new System.Drawing.Size(245, 67);
+            this.btn_8_1.Size = new System.Drawing.Size(245, 61);
             this.btn_8_1.TabIndex = 0;
             this.btn_8_1.Text = "8.1";
             this.btn_8_1.UseVisualStyleBackColor = true;
@@ -48,9 +48,9 @@
             // btn_8_2
             // 
             this.btn_8_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btn_8_2.Location = new System.Drawing.Point(117, 169);
+            this.btn_8_2.Location = new System.Drawing.Point(117, 153);
             this.btn_8_2.Name = "btn_8_2";
-            this.btn_8_2.Size = new System.Drawing.Size(245, 67);
+            this.btn_8_2.Size = new System.Drawing.Size(245, 60);
             this.btn_8_2.TabIndex = 1;
             this.btn_8_2.Text = "8.2";
             this.btn_8_2.UseVisualStyleBackColor = true;
@@ -59,12 +59,13 @@
             // btn_8_3
             // 
             this.btn_8_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btn_8_3.Location = new System.Drawing.Point(117, 288);
+            this.btn_8_3.Location = new System.Drawing.Point(117, 261);
             this.btn_8_3.Name = "btn_8_3";
-            this.btn_8_3.Size = new System.Drawing.Size(245, 67);
+            this.btn_8_3.Size = new System.Drawing.Size(245, 60);
             this.btn_8_3.TabIndex = 2;
             this.btn_8_3.Text = "8.3";
             this.btn_8_3.UseVisualStyleBackColor = true;
+            this.btn_8_3.Click += new System.EventHandler(this.btn_8_3_Click);
             // 
             // btn_close
             // 
@@ -84,7 +85,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(475, 423);
+            this.ClientSize = new System.Drawing.Size(475, 365);
             this.Controls.Add(this.btn_close);
             this.Controls.Add(this.btn_8_3);
             this.Controls.Add(this.btn_8_2);

@@ -35,5 +35,12 @@ namespace Simulation.Lab._8
             lab_8_2 lab_8_2 = new lab_8_2();
             lab_8_2.Show();
         }
+
+        private void btn_8_3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            lab_8_3 lab_8_3 = new lab_8_3();
+            lab_8_3.Show();
+        }
     }
 }
