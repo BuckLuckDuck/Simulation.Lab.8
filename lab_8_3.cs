@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Simulation.Lab._8
@@ -42,7 +35,7 @@ namespace Simulation.Lab._8
             chart1.Series[0].Points.AddXY(3, nud_prob_3.Value);
             chart1.Series[0].Points.AddXY(4, nud_prob_4.Value);
             chart1.Series[0].Points.AddXY(5, nud_prob_5.Value);
-            
+
             Random rnd = new Random();
             int random_prob = 1001;
             nud_prob_1.Value = (decimal)rnd.Next(random_prob) / 1000;
